@@ -33,7 +33,7 @@ class Menu extends Component {
             );
         }
     }
-
+    
     renderComments(dish) {
         if (dish != null) {
             return (
@@ -60,7 +60,7 @@ class Menu extends Component {
             );
         }
     }
-
+    
     render() {
 
         const menu = this.props.dishes.map((dish) => {
